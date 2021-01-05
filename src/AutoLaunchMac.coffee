@@ -32,7 +32,9 @@ module.exports =
                       <string>#{appName}</string>
                       <key>ProgramArguments</key>
                       <array>
-                      #{programArgumentsSection}
+                        <string>/usr/bin/open</string>
+                        <string>-W</string>
+                        #{programArgumentsSection}
                       </array>
                       <key>RunAtLoad</key>
                       <true/>
